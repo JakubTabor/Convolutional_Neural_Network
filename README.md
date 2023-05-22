@@ -7,3 +7,4 @@
 # "input_shape" will be "[64, 64, 3]", then I add pool layer which size will be (2, 2) "pool_size=2, strides=2"
 # Next I add hidden layer with this same parameters as my first layer and then pool layer with size (2, 2)
 # Thats all my convolutional layers, now i need to "flatten" them, because they need to fit to my whole network, so i add "Flatten layer"
+# Now I add additional "Dense layer" with (128 neurons and activation relu" and "output layer" with "one neuron" and "activation sigmoid"
