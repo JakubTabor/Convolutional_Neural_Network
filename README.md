@@ -4,3 +4,4 @@
 # Next from directory I choose "training_set" I do exactly the same preprocess with my "test_set"
 # Now when I have my sets ready for training I create "cnn model" "tf.keras.models.Sequential()"
 # Then I create first convolutional 2D layer that will have "32 filters" this number its just a try, my kernel size will be (3) and activation "relu"
+# "input_shape" will be "[64, 64, 3]", then I add pool layer which size will be (2, 2) "pool_size=2, strides=2"
