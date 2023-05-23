@@ -10,3 +10,4 @@
 # Now I add additional "Dense layer" with (128 neurons and activation relu" and "output layer" with "one neuron" and "activation sigmoid"
 # Then I need to compile my model with "optimizer adam", "loss will be binary_crossentropy" because i have binary output and "metrics will be accuracy" 
 # Finally I train my model with "x as training_set and validation_data as test_set" and "25 epochs"
+# I dont need to evaluate my model, so i use my test dataset as validation set, accuracy of my model looks pretty good
